@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DF091551E66A0C700D1D096 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF091541E66A0C700D1D096 /* main.m */; };
+		9DF091581E66A0C700D1D096 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF091571E66A0C700D1D096 /* AppDelegate.m */; };
+		9DF0915B1E66A0C700D1D096 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF0915A1E66A0C700D1D096 /* ViewController.m */; };
+		9DF0915E1E66A0C700D1D096 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF0915C1E66A0C700D1D096 /* Main.storyboard */; };
+		9DF091601E66A0C700D1D096 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DF0915F1E66A0C700D1D096 /* Assets.xcassets */; };
+		9DF091631E66A0C700D1D096 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF091611E66A0C700D1D096 /* LaunchScreen.storyboard */; };
+		9DF091791E66A1EA00D1D096 /* KBAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF0916C1E66A1EA00D1D096 /* KBAppearance.m */; };
+		9DF0917A1E66A1EA00D1D096 /* KBFormSheetBackgroundWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF0916E1E66A1EA00D1D096 /* KBFormSheetBackgroundWindow.m */; };
+		9DF0917B1E66A1EA00D1D096 /* KBFormSheetBackgroundWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF091701E66A1EA00D1D096 /* KBFormSheetBackgroundWindowViewController.m */; };
+		9DF0917C1E66A1EA00D1D096 /* KBFormSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF091721E66A1EA00D1D096 /* KBFormSheetController.m */; };
+		9DF0917D1E66A1EA00D1D096 /* KBTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF091741E66A1EA00D1D096 /* KBTransition.m */; };
+		9DF0917E1E66A1EA00D1D096 /* NSInvocation+Copy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF091761E66A1EA00D1D096 /* NSInvocation+Copy.m */; };
+		9DF0917F1E66A1EA00D1D096 /* UIViewController+KBFormSheetTargetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF091781E66A1EA00D1D096 /* UIViewController+KBFormSheetTargetViewController.m */; };
+		9DF091821E66A39F00D1D096 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF091811E66A39F00D1D096 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9DF091501E66A0C700D1D096 /* KBFormSheetController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KBFormSheetController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DF091541E66A0C700D1D096 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DF091561E66A0C700D1D096 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9DF091571E66A0C700D1D096 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9DF091591E66A0C700D1D096 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9DF0915A1E66A0C700D1D096 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9DF0915D1E66A0C700D1D096 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DF0915F1E66A0C700D1D096 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DF091621E66A0C700D1D096 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DF091641E66A0C700D1D096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DF0916B1E66A1EA00D1D096 /* KBAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBAppearance.h; sourceTree = "<group>"; };
+		9DF0916C1E66A1EA00D1D096 /* KBAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBAppearance.m; sourceTree = "<group>"; };
+		9DF0916D1E66A1EA00D1D096 /* KBFormSheetBackgroundWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBFormSheetBackgroundWindow.h; sourceTree = "<group>"; };
+		9DF0916E1E66A1EA00D1D096 /* KBFormSheetBackgroundWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBFormSheetBackgroundWindow.m; sourceTree = "<group>"; };
+		9DF0916F1E66A1EA00D1D096 /* KBFormSheetBackgroundWindowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBFormSheetBackgroundWindowViewController.h; sourceTree = "<group>"; };
+		9DF091701E66A1EA00D1D096 /* KBFormSheetBackgroundWindowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBFormSheetBackgroundWindowViewController.m; sourceTree = "<group>"; };
+		9DF091711E66A1EA00D1D096 /* KBFormSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBFormSheetController.h; sourceTree = "<group>"; };
+		9DF091721E66A1EA00D1D096 /* KBFormSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBFormSheetController.m; sourceTree = "<group>"; };
+		9DF091731E66A1EA00D1D096 /* KBTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBTransition.h; sourceTree = "<group>"; };
+		9DF091741E66A1EA00D1D096 /* KBTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBTransition.m; sourceTree = "<group>"; };
+		9DF091751E66A1EA00D1D096 /* NSInvocation+Copy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+Copy.h"; sourceTree = "<group>"; };
+		9DF091761E66A1EA00D1D096 /* NSInvocation+Copy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+Copy.m"; sourceTree = "<group>"; };
+		9DF091771E66A1EA00D1D096 /* UIViewController+KBFormSheetTargetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KBFormSheetTargetViewController.h"; sourceTree = "<group>"; };
+		9DF091781E66A1EA00D1D096 /* UIViewController+KBFormSheetTargetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KBFormSheetTargetViewController.m"; sourceTree = "<group>"; };
+		9DF091811E66A39F00D1D096 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DF0914D1E66A0C700D1D096 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DF091821E66A39F00D1D096 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DF091471E66A0C700D1D096 = {
+			isa = PBXGroup;
+			children = (
+				9DF091521E66A0C700D1D096 /* KBFormSheetController */,
+				9DF091511E66A0C700D1D096 /* Products */,
+				9DF091801E66A39E00D1D096 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9DF091511E66A0C700D1D096 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DF091501E66A0C700D1D096 /* KBFormSheetController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DF091521E66A0C700D1D096 /* KBFormSheetController */ = {
+			isa = PBXGroup;
+			children = (
+				9DF0916A1E66A1EA00D1D096 /* KBFormSheetController */,
+				9DF091561E66A0C700D1D096 /* AppDelegate.h */,
+				9DF091571E66A0C700D1D096 /* AppDelegate.m */,
+				9DF091591E66A0C700D1D096 /* ViewController.h */,
+				9DF0915A1E66A0C700D1D096 /* ViewController.m */,
+				9DF0915C1E66A0C700D1D096 /* Main.storyboard */,
+				9DF0915F1E66A0C700D1D096 /* Assets.xcassets */,
+				9DF091611E66A0C700D1D096 /* LaunchScreen.storyboard */,
+				9DF091641E66A0C700D1D096 /* Info.plist */,
+				9DF091531E66A0C700D1D096 /* Supporting Files */,
+			);
+			path = KBFormSheetController;
+			sourceTree = "<group>";
+		};
+		9DF091531E66A0C700D1D096 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DF091541E66A0C700D1D096 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DF0916A1E66A1EA00D1D096 /* KBFormSheetController */ = {
+			isa = PBXGroup;
+			children = (
+				9DF0916B1E66A1EA00D1D096 /* KBAppearance.h */,
+				9DF0916C1E66A1EA00D1D096 /* KBAppearance.m */,
+				9DF0916D1E66A1EA00D1D096 /* KBFormSheetBackgroundWindow.h */,
+				9DF0916E1E66A1EA00D1D096 /* KBFormSheetBackgroundWindow.m */,
+				9DF0916F1E66A1EA00D1D096 /* KBFormSheetBackgroundWindowViewController.h */,
+				9DF091701E66A1EA00D1D096 /* KBFormSheetBackgroundWindowViewController.m */,
+				9DF091711E66A1EA00D1D096 /* KBFormSheetController.h */,
+				9DF091721E66A1EA00D1D096 /* KBFormSheetController.m */,
+				9DF091731E66A1EA00D1D096 /* KBTransition.h */,
+				9DF091741E66A1EA00D1D096 /* KBTransition.m */,
+				9DF091751E66A1EA00D1D096 /* NSInvocation+Copy.h */,
+				9DF091761E66A1EA00D1D096 /* NSInvocation+Copy.m */,
+				9DF091771E66A1EA00D1D096 /* UIViewController+KBFormSheetTargetViewController.h */,
+				9DF091781E66A1EA00D1D096 /* UIViewController+KBFormSheetTargetViewController.m */,
+			);
+			path = KBFormSheetController;
+			sourceTree = "<group>";
+		};
+		9DF091801E66A39E00D1D096 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DF091811E66A39F00D1D096 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DF0914F1E66A0C700D1D096 /* KBFormSheetController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DF091671E66A0C700D1D096 /* Build configuration list for PBXNativeTarget "KBFormSheetController" */;
+			buildPhases = (
+				9DF0914C1E66A0C700D1D096 /* Sources */,
+				9DF0914D1E66A0C700D1D096 /* Frameworks */,
+				9DF0914E1E66A0C700D1D096 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KBFormSheetController;
+			productName = KBFormSheetController;
+			productReference = 9DF091501E66A0C700D1D096 /* KBFormSheetController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DF091481E66A0C700D1D096 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = kuaibao;
+				TargetAttributes = {
+					9DF0914F1E66A0C700D1D096 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9DF0914B1E66A0C700D1D096 /* Build configuration list for PBXProject "KBFormSheetController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DF091471E66A0C700D1D096;
+			productRefGroup = 9DF091511E66A0C700D1D096 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DF0914F1E66A0C700D1D096 /* KBFormSheetController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DF0914E1E66A0C700D1D096 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DF091631E66A0C700D1D096 /* LaunchScreen.storyboard in Resources */,
+				9DF091601E66A0C700D1D096 /* Assets.xcassets in Resources */,
+				9DF0915E1E66A0C700D1D096 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DF0914C1E66A0C700D1D096 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DF0915B1E66A0C700D1D096 /* ViewController.m in Sources */,
+				9DF0917F1E66A1EA00D1D096 /* UIViewController+KBFormSheetTargetViewController.m in Sources */,
+				9DF0917D1E66A1EA00D1D096 /* KBTransition.m in Sources */,
+				9DF0917A1E66A1EA00D1D096 /* KBFormSheetBackgroundWindow.m in Sources */,
+				9DF091581E66A0C700D1D096 /* AppDelegate.m in Sources */,
+				9DF091791E66A1EA00D1D096 /* KBAppearance.m in Sources */,
+				9DF091551E66A0C700D1D096 /* main.m in Sources */,
+				9DF0917B1E66A1EA00D1D096 /* KBFormSheetBackgroundWindowViewController.m in Sources */,
+				9DF0917C1E66A1EA00D1D096 /* KBFormSheetController.m in Sources */,
+				9DF0917E1E66A1EA00D1D096 /* NSInvocation+Copy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9DF0915C1E66A0C700D1D096 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DF0915D1E66A0C700D1D096 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9DF091611E66A0C700D1D096 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DF091621E66A0C700D1D096 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DF091651E66A0C700D1D096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9DF091661E66A0C700D1D096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DF091681E66A0C700D1D096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KBFormSheetController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuaidihelp.KBFormSheetController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9DF091691E66A0C700D1D096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KBFormSheetController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuaidihelp.KBFormSheetController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DF0914B1E66A0C700D1D096 /* Build configuration list for PBXProject "KBFormSheetController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DF091651E66A0C700D1D096 /* Debug */,
+				9DF091661E66A0C700D1D096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DF091671E66A0C700D1D096 /* Build configuration list for PBXNativeTarget "KBFormSheetController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DF091681E66A0C700D1D096 /* Debug */,
+				9DF091691E66A0C700D1D096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DF091481E66A0C700D1D096 /* Project object */;
+}
