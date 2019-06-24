@@ -4,7 +4,7 @@
 //  test10
 //
 //  Created by 肖雄 on 15/12/13.
-//  Copyright © 2015年 kuaibao. All rights reserved.
+//  Copyright © 2015年 xiaoxiong. All rights reserved.
 //
 
 #import "KBFormSheetBackgroundWindow.h"
